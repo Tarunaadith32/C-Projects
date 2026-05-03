@@ -155,8 +155,7 @@ The `compare()` helper converts both strings to lowercase before comparing, maki
 ### `stud_rev.c` — Reverse List
 - Same pointer-array + `memcpy` technique as sort.
 - Uses two-pointer swap: `i` starts from front, `j` from back, meet in the middle.
-- Copies only `size = sizeof(st) - 8` bytes to avoid overwriting `next` pointers.
-> ⚠️ **Note:** `sizeof(st) - 8` assumes the `next` pointer is 8 bytes (64-bit system). A more portable way would be `sizeof(st) - sizeof(st*)`.
+- Copies only `sizeof(st) - sizeof(st*)` bytes to avoid overwriting `next` pointers.
  
 ---
  
