@@ -13,7 +13,7 @@ A terminal-based Library Management System written in **C**, featuring a doubly 
 - [Detailed Mode of Operation](#detailed-mode-of-operation)
 - [CSV Format](#csv-format)
 - [Known Disadvantages & Limitations](#known-disadvantages--limitations)
-- [Topics Used — Interview Prep Guide](#topics-used--interview-prep-guide)
+- [Topics Used](#topics-used)
 
 ---
 
@@ -337,4 +337,19 @@ Any terminal user can add, delete, or modify any record. There are no admin/libr
 `system("clear")` spawns a shell subprocess. In larger programs that take user input and pass it to `system()`, this opens shell injection vulnerabilities. The safer alternative is `printf("\033[2J\033[H")` directly.
 
 ---
-
+### Topics-Used
+| Category | Concepts / Technologies |
+|---|---|
+| **Data Structures** | Doubly Linked List, Linear Search, Sequential Traversal |
+| **Memory Management** | `malloc()`, `free()`, Heap vs Stack Memory, Memory Leaks, Dangling Pointers |
+| **Core C Programming** | Pointers, Structures (`struct`), `typedef`, Self-Referential Structures, Arrays |
+| **Scope & Linkage** | `extern`, Global Variables, Translation Units, One Definition Rule (ODR) |
+| **Preprocessor Directives** | Include Guards, `#define`, `#ifndef`, Macros vs Constants |
+| **File Handling / File I/O** | `fopen()`, `fgets()`, `fprintf()`, `sscanf()`, CSV Parsing, File Modes |
+| **String Handling** | `strcmp()`, `strcpy()`, `strftime()`, `scanf()` Format Specifiers, Buffer Overflow Prevention |
+| **Time & Date Handling** | Unix Epoch Time, `time()`, `localtime()`, `strftime()`, Timestamp Arithmetic |
+| **Build System & Compilation** | GCC Compilation Flags (`-c`, `-o`), Compilation Stages, Object Files, Makefiles, Incremental Builds |
+| **Algorithms & Complexity** | Linear Search `O(n)`, Nested Traversal `O(n × m)`, Rebuild Operations `O(n²)` |
+| **Formatted Output & UI** | `printf()` Formatting, Table Alignment, Dynamic Column Width Formatting |
+| **Control Flow** | `switch-case`, Fall-through Behavior, `while` Loops, `do-while` Loops |
+| **Software Design Principles** | Modular Programming, Multi-file C Projects, Header File Organization, Separation of Concerns |
