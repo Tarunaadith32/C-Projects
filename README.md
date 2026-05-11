@@ -1,22 +1,24 @@
 # C Projects
 
-A collection of C programs built while learning systems programming and embedded systems.
+A collection of console-based C programs built while learning systems programming concepts like data structures, file I/O, and memory management.
 
 ---
 
 ## Projects
 
-| # | Project | Description | Status |
-|---|---------|-------------|--------|
-| 1 | [Student Management System](./Student%20Management%20System/) | Console-based student record manager using linked lists and file I/O | ✅ Complete |
-| 2 | Library Management System | Coming soon | 🔧 In Progress |
+| # | Project | Concepts | Status |
+|---|---------|----------|--------|
+| 1 | [Student Management System](./Student%20Management%20System/) | Singly linked list, Binary file I/O, Multi-file architecture | ✅ Complete |
+| 2 | [Library Management System](./Library%20Management%20System/) | Doubly linked list, CSV file I/O, Date & time handling, Fine calculation | ✅ Complete |
 
 ---
 
-## Built With
+## Tools
 
-- Language: C
-- Tools: GCC, Make
+- Language : C
+- Compiler : GCC
+- Build    : Make
+- OS       : Linux
 
 ---
 
